@@ -1,0 +1,1052 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html,
+body {
+      height: 100%;
+      width: 100%;
+}
+
+#main1 {
+      width: 100%;
+      height: 100%;
+      background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-en-20230213-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+      background-position: center;
+      background-size: cover;
+}
+
+#inner {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.599);
+      position: relative;
+}
+
+#nav {
+      width: 100%;
+      height: 90px;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.566));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+#part1 {
+      padding: 25px 30px;
+}
+
+#part1 img {
+      height: 50px;
+
+}
+
+#part2 button {
+      padding: 8px 20px;
+      margin: 10px;
+      font-size: 15px;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 3px;
+}
+
+#part2 #x1 {
+      background-color: red;
+      border: none;
+}
+
+#overlay {
+      width: 100%;
+      height: 70%;
+      /* background-color: yellow; */
+      text-align: center;
+      padding: 140px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      color: #fff;
+}
+
+#overlay h1 {
+      font-size: 60px;
+
+
+}
+
+#overlay h3 {
+      font-size: 27px;
+      margin-top: 15px;
+      font-weight: 500;
+      margin-bottom: 28px;
+}
+
+#overlay h4 {
+      font-size: 21px;
+      font-weight: 400;
+      word-spacing: 2px;
+}
+
+
+#line {
+      width: 100%;
+      height: 100px;
+      /* background-color: yellow; */
+      position: absolute;
+      top: 66%;
+
+}
+
+#line input {
+      padding: 19px 110px;
+      position: absolute;
+      left: 29%;
+      top: 17px;
+      color: lightgoldenrodyellow;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid white;
+      background-color: rgba(0, 0, 0, 0.533)
+}
+
+#line button {
+      position: absolute;
+      left: 59%;
+      top: 18%;
+      padding: 0px 50px;
+      border: none;
+      border-radius: 5px;
+      background-color: red;
+      transition: all ease 0.5s;
+      cursor: pointer;
+}
+
+#line button:hover {
+      background-color: rgba(255, 0, 0, 0.437);
+
+}
+
+#line button h3 {
+
+      font-size: 27px;
+
+      margin-top: 8px;
+      margin-left: 5px;
+      font-weight: 500;
+      color: #fff;
+}
+
+#main2 {
+      width: 100%;
+      height: 80%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#box1 {
+      width: 600px;
+      height: 200px;
+      /* background-color: yellowgreen; */
+      position: absolute;
+      left: 160px;
+      top: 124%;
+}
+
+#box1 h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 70px;
+      color: #fff;
+
+
+}
+
+#box1 h3 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+
+      color: #fff;
+      position: absolute;
+      top: 47%;
+}
+
+#box2 {
+      width: 500px;
+      height: 300px;
+      /* background-color: red; */
+      position: absolute;
+      left: 55%;
+      top: 120%;
+}
+
+#box2 img {
+      /* width: 440px; */
+      height: 300px;
+}
+
+#box3 {
+      width: 650px;
+      height: 110px;
+      background-color: rgba(0, 0, 0, 0.555);
+      position: absolute;
+      left: 48%;
+      top: 160%;
+      z-index: 1;
+}
+
+#box3 img {
+      height: 130px;
+      width: 650px;
+      position: absolute;
+      top: -20px;
+}
+
+#box4 {
+      width: 425px;
+      height: 250px;
+      background-image: url(https://www.dexteritysolution.com/assets/img/posts/netflix-clone-script.jpg);
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 121%;
+      left: 55.6%;
+
+      animation-name: anime;
+      animation-duration: 10s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+      0% {
+            background-image: url(https://www.dexteritysolution.com/assets/img/posts/netflix-clone-script.jpg);
+      }
+
+      20% {
+            background-image: url(https://miro.medium.com/max/2560/0*8_KIv_yZjgS9im4V);
+      }
+
+      40% {
+            background-image: url(https://sobinge.com.au/wp-content/uploads/2020/09/This-Week-On-Netflix-Australia-What-To-Watch-758x397.jpg);
+      }
+
+      60% {
+            background-image: url(https://images.indianexpress.com/2020/08/netflix-759-1.jpg?resize=600,308);
+      }
+
+      80% {
+            background-image: url(https://sobinge.com.au/wp-content/uploads/2020/09/This-Week-On-Netflix-Australia-What-To-Watch-758x397.jpg);
+      }
+
+      100% {
+            background-image: url(https://www.dexteritysolution.com/assets/img/posts/netflix-clone-script.jpg);
+      }
+}
+
+#box5 {
+      width: 50px;
+      height: 120px;
+      /* background-color: red; */
+      position: absolute;
+      left: 78%;
+      top: 142%;
+      z-index: 2;
+}
+
+#box5 img {
+      height: 130px;
+      width: 110px;
+      position: absolute;
+      left: -30%;
+      object-fit: cover;
+}
+
+#main3 {
+      width: 100%;
+      height: 80%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#fox1 {
+      width: 400px;
+      height: 500px;
+      position: absolute;
+      left: 15%;
+      top: 20%;
+
+      /* background-color: red; */
+
+
+}
+
+#fox1 img {
+      width: 120%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 3;
+}
+
+#fox2 {
+      width: 100%;
+      height: 115px;
+      background-color: rgba(0, 0, 0, 0.983);
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      border: none;
+
+}
+
+#fox3 {
+      width: 213px;
+      height: 294px;
+      background-image: url(https://assets1.ignimgs.com/2019/05/22/strangerthings-s3-max-rgb-digital-1558559976165_1280w.jpg);
+      background-size: cover;
+      background-position: top;
+      position: absolute;
+      left: 24%;
+      top: 32%;
+}
+
+#fox4 {
+      width: 340px;
+      height: 100px;
+      position: absolute;
+      left: 20%;
+      top: 59%;
+      background-color: black;
+      border-radius: 10px;
+      border: 1px solid grey;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+}
+
+#cat1 {
+      width: 60px;
+      height: 85px;
+      background-image: url(https://media.senscritique.com/media/000015951252/source_big/Stranger_Things.jpg);
+      background-position: center;
+      background-size: cover;
+}
+
+#cat2 {
+      width: 165px;
+      height: 80px;
+      /* background-color: lightsalmon; */
+
+
+}
+
+#cat2 h5 {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #fff;
+}
+
+#cat2 h6 {
+      font-size: 16px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#cat3 {
+      width: 40px;
+      height: 40px;
+      background-image: url(./download.png);
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+      overflow: hidden;
+
+      animation-name: car;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+@keyframes car {
+      0% {
+            background-image: url(./download.png);
+      }
+
+      50% {
+            background-image: url(./icons8-process-48.png);
+      }
+
+      100% {
+            background-image: url(./check.png);
+      }
+}
+
+#fox5 {
+      width: 700px;
+      height: 280px;
+      /* background-color: red; */
+      position: absolute;
+      left: 50%;
+      top: 28%;
+
+}
+
+#fox5 h1 {
+      font-size: 60px;
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      word-spacing: 5px;
+      color: #fff;
+
+}
+
+#fox5 h3 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 28px;
+      font-weight: 100;
+      margin-top: 10px;
+      color: #fff;
+}
+
+
+
+#main4 {
+      width: 100%;
+      height: 80%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#node1 {
+      width: 530px;
+      height: 200px;
+      /* background-color: red; */
+      position: absolute;
+      top: 35%;
+      left: 180px;
+}
+
+#node1 h1 {
+
+      font-size: 60px;
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      word-spacing: 5px;
+      color: #fff;
+
+}
+
+#node1 h3 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      margin-top: 10px;
+      color: #fff;
+}
+
+#node2 {}
+
+#node2 img {
+      height: 450px;
+      position: absolute;
+      top: -48%;
+      left: 120%;
+      z-index: 2;
+}
+
+#node3 {
+      width: 320px;
+      height: 190px;
+      background-image: url(https://media3.giphy.com/media/8OMbbhiAT3kd4chi33/giphy.gif?cid=ecf05e47we8m9d2dxln1e31q2m6lb9aj3y8rsajcgodv5loh&rid=giphy.gif&ct=g);
+      position: absolute;
+      left: 144%;
+      top: -28%;
+
+}
+
+
+#main5 {
+      width: 100%;
+      height: 80%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#red1 {
+      width: 630px;
+      height: 500px;
+      background-image: url(https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420);
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 50px;
+      left: 200px;
+}
+
+#red2 {
+      width: 570px;
+      height: 250px;
+      /* background-color: red; */
+      position: absolute;
+      left: 57%;
+      top: 30%;
+
+}
+
+#red2 h1 {
+      font-size: 60px;
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      word-spacing: 5px;
+      color: #fff;
+
+}
+
+#red2 h4 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      margin-top: 10px;
+      color: #fff;
+}
+
+
+#main6 {
+      width: 100%;
+      height: 135%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#tom1 {
+      width: 60%;
+      height: 90px;
+      position: absolute;
+      left: 27%;
+      top: 90px;
+      /* background-color: red; */
+
+}
+
+#tom1 h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 60px;
+      color: #fff;
+}
+
+#tom2 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45 45 45);
+      top: 200px;
+      position: absolute;
+      left: 200px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 25px;
+      transition: all ease 0.3s;
+}
+
+#tom2:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom2 h3 {
+      font-size: 25px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#tom3 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45 45 45);
+      top: 295px;
+      position: absolute;
+      left: 200px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 25px;
+      transition: all ease 0.3s;
+
+}
+
+#tom3:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm1 {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm1 img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom3 h3 {
+      font-size: 25px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#tom4 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45 45 45);
+      top: 391px;
+      position: absolute;
+      left: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 25px;
+      transition: all ease 0.3s;
+
+
+}
+
+#tom4:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm2 {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm2 img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom4 h3 {
+      font-size: 25px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+
+#tom5 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45 45 45);
+      top: 489px;
+      position: absolute;
+      left: 200px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all ease 0.3s;
+
+      padding: 0 25px;
+}
+
+#tom5:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm3 {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm3 img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom5 h3 {
+      font-size: 25px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#tom6 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45, 45, 45);
+      position: absolute;
+      left: 200px;
+      top: 589px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all ease 0.3s;
+
+      padding: 0 25px;
+}
+
+#tom6:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm4 {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm4 img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom6 h3 {
+      font-size: 25px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#tom7 {
+      width: 75%;
+      height: 85px;
+      background-color: rgb(45 45 45);
+      top: 689px;
+      position: absolute;
+      left: 200px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all ease 0.3s;
+
+      padding: 0 25px;
+}
+
+#tom7:hover {
+      background-color: rgb(94, 92, 92);
+}
+
+#arm5 {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+
+}
+
+#arm5 img {
+      object-fit: cover;
+      object-position: center;
+      /* padding: 10px 20px; */
+      position: absolute;
+      left: 94%;
+      top: 16px;
+}
+
+#tom7 h3 {
+      font-size: 25px;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-weight: 400;
+      color: #fff;
+
+}
+
+#one{
+      width: 800px;
+      height: 30px;
+      /* background-color: lightblue; */
+      top: 82%;
+      position: absolute;
+      left: 30%;
+      color: #fff;
+}
+
+#one h4{
+     font-size: 23px;
+     font-weight: 400;
+     font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+
+}
+
+#two{
+      width: 60%;
+      height: 100px;
+      /* background-color: yellow; */
+      position: absolute;
+      left: 32%;
+      top: 86%;
+}
+
+#two input{
+     
+            padding: 19px 110px;
+            position: absolute;
+            left: 0%;
+            top: 17px;
+            color: lightgoldenrodyellow;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: rgba(0, 0, 0, 0.533)
+      }
+
+      #two button {
+            position: absolute;
+            left: 50%;
+            top: 18%;
+            padding: 14px 50px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            transition: all ease 0.5s;
+            cursor: pointer;
+      }
+      
+      #two button:hover {
+            background-color: rgba(255, 0, 0, 0.437);
+      
+      }
+      
+      #two button h3 {
+      
+            font-size: 27px;
+      
+            /* margin-top: 8px;
+            margin-left: 5px; */
+            font-weight: 500;
+            color: #fff;
+      }
+      
+
+
+#main7 {
+      width: 100%;
+      height: 80%;
+      background-color: black;
+      margin-top: 10px;
+      position: relative;
+}
+
+#three{
+      width: 500px;
+      height: 25px;
+      /* background-color: lightpink; */
+      position: absolute;
+      top: 80px;
+      left: 13%;
+}
+#three h5{
+      font-size: 17px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight: 400;
+color: white;
+}
+
+#four{
+      width: 200px;
+      height: 250px;
+      /* background-color: lightblue; */
+      position: absolute;
+      left: 13%;
+      top: 160px;
+}
+
+#four h5{
+      font-size: 16px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight: 400;
+color: white;
+line-height: 36px;
+}
+
+#five{
+      width: 200px;
+      height: 250px;
+      /* background-color: lightblue; */
+      position: absolute;
+      left: 40%;
+      top: 160px;
+}
+
+#five h5{
+      font-size: 16px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight: 400;
+color: white;
+line-height: 36px;
+}
+
+#six{
+      width: 200px;
+      height: 250px;
+      /* background-color: lightblue; */
+      position: absolute;
+      left: 68%;
+      top: 160px;
+}
+
+#six h5{
+      font-size: 16px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight: 400;
+color: white;
+line-height: 36px;
+}
+
+#lang{
+      cursor: pointer;
+}
+
+#mark{
+   width: 160px;
+   height: 60px;
+   /* background-color: red; */
+   position: absolute;
+   left: 12%;
+   top: 70%;
+position: relative;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+
+
+#selected-lang{
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      line-height: 2;
+      width: 100px;
+      color: #fff;
+      font-size: 18px;
+
+}
+
+
+#selected-lang::before{
+      content: '';
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+      background-image: url(https://th.bing.com/th/id/R.1a5bf1a1f4b58892050229e8c9d06242?rik=XfjBGx%2ffPtluBQ&riu=http%3a%2f%2fwww.mhscitylab.org%2fwp-content%2fuploads%2f2015%2f03%2fworld-bank-logo.jpg&ehk=jS1X1v%2fb3HYGalkGbrNoKTWdKJkqnbTt8EOhkJaFbdg%3d&risl=&pid=ImgRaw&r=0);
+      background-position: center;
+      background-size: cover;
+      border: none;
+
+}
+
+#lang-menu ul {
+margin-left: 30px;
+padding: 0;
+background-color: rgb(94, 92, 92);
+/* border: 1px solid #f8f8f8; */
+box-shadow: 0px 1px 5px rgb(200, 199, 198);
+border-radius: 5px;
+display: none;
+position: absolute;
+top: 35px;
+}
+
+#lang-menu ul li{
+      list-style: none;
+
+}
+#lang-menu ul li a{
+      width: 125px;
+      display: block;
+      padding: 5px 10px;
+
+}
+
+#lang-menu ul li a:hover{
+background-color: #c0b8b8;
+}
+#lang-menu:hover ul{
+      display: block;
+}
+
+#last{
+      width: 100px;
+      height: 40px;
+      /* background-color: lightgreen; */
+      position: absolute;
+      bottom: 15%;
+      left: 10%;
+}
+
+#last h5{
+      font-size: 16px;
+      font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight: 400;
+color: white; 
+}
